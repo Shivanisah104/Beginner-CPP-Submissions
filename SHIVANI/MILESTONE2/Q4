@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main() 
+{
+  int salary,years,bonus;
+  cout<<"enter the salary"<<endl;
+  cin>>salary;
+  cout<<"enter the years"<<endl;
+  cin>>years;
+  bonus=(salary*5)/100;
+
+  if(years>=5)
+  {
+    cout<<"the employe is eligible for bonus"<<salary+bonus<<endl;
+
+  }
+else 
+{
+  cout<<"the employe is not eligible for bonus"<<salary<<endl;
+}
+return 0;
+}
