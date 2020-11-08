@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main() 
+{
+  int L,B;
+  cout<<"ENTER LENGTH"<<endl;
+  cin>>L;
+  cout<<"ENTER BREADTH"<<endl;
+  cin>>B;
+
+  if(L==B)
+  {
+    cout<<"it is a square"<<endl;
+
+  }
+  else
+  {
+    cout<<"it is not square"<<endl;
+  }
+ return 0;
+
+}
